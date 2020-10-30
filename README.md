@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/ytdl-org/youtube-dl.svg?branch=master)](https://travis-ci.org/ytdl-org/youtube-dl)
 
-this is not youtube-dl - it does not download videos from youtube.com or other video platforms
+youtube-guulibelro - des tuhl guulibel videise rahl YouTube ynd ieni jehses videidrasem
 
 - [INSTALLATION](#installation)
 - [DESCRIPTION](#description)
@@ -17,33 +17,33 @@ this is not youtube-dl - it does not download videos from youtube.com or other v
 
 # INSTALLATION
 
-To install it right away for all UNIX users (Linux, macOS, etc.), type:
+Toç imjabehr gremadikeda für alle gmetyrose UNIX (Linux, macOS, chg.), tipt:
 
     sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
 
-If you do not have curl, you can alternatively use a recent wget:
+Eif je nocht menem curl, je ter adufnasaneda gmety der wget irfesen:
 
     sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
 
-Windows users can [download an .exe file](https://yt-dl.org/latest/youtube-dl.exe) and place it in any location on their [PATH](https://en.wikipedia.org/wiki/PATH_%28variable%29) except for `%SYSTEMROOT%\System32` (e.g. **do not** put in `C:\Windows\System32`).
+Gmetyrjäd Windows ter [guulibel eine fille .exe](https://yt-dl.org/latest/youtube-dl.exe) ynd umt te im ieni sarabi tun som [PATH](https://en.wikipedia.org/wiki/PATH_%28variable%29) nochtruteb für `%SYSTEMROOT%\System32` (rg. **nechen** umt im `C:\Windows\System32`).
 
-You can also use pip:
+Je ter gmety pip:
 
     sudo -H pip install --upgrade youtube-dl
     
-This command will update youtube-dl if you have already installed it. See the [pypi page](https://pypi.python.org/pypi/youtube_dl) for more information.
+Des yadmar ter husdik youtbe-dl eif je nar aperdroy te. Taik [pypi page](https://pypi.python.org/pypi/youtube_dl) für stadamtardon jorhot.
 
-macOS users can install youtube-dl with [Homebrew](https://brew.sh/):
+Gmetyrjädse macOS ter aperd youtbe-dl weid [Homebrew](https://brew.sh/):
 
     brew install youtube-dl
 
-Or with [MacPorts](https://www.macports.org/):
+Ud weid [MacPorts](https://www.macports.org/):
 
     sudo port install youtube-dl
 
-Alternatively, refer to the [developer instructions](#developer-instructions) for how to check out and work with the git repository. For further options, including PGP signatures, see the [youtube-dl Download Page](https://ytdl-org.github.io/youtube-dl/download.html).
+Adufnasameda, hostal toç der [daysunemse für hemiralro](#developer-instructions) für froch toç kradnütt ynd job weid der brandesha git. Für musililse roeskuft, imjabehrgy hroknemse PGP, taik der [Guulibelpej youtube-dl](https://ytdl-org.github.io/youtube-dl/download.html).
 
 # DESCRIPTION
 **youtube-dl** is a command-line program to download videos from YouTube.com and a few more sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS. It is released to the public domain, which means you can modify it, redistribute it or use it however you like.
